@@ -1,0 +1,19 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('../img/moonpresence.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+
+.rain {
+    height: 100vh;
+    background: url('../img/rain.png');
+    animation: rain 0.3s linear infinite;
+}
+
+@keyframes rain {
+    0% {background-position: 0 0;}
+    100% {background-position: 150px 400px;}
+}
